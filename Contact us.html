@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Internship Platform</title>
+    <link rel="stylesheet" href="Contact us.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Contact Us</h1>
+        </header>
+        
+        <section class="contact-info">
+            <h2>Feel Free to Contact us!</h2>
+            <div class="contact-details">
+                <p><strong>Company Email:</strong> <a href="ayush@intenship.com">ayush@internship.com</a></p>
+                <p><strong>Mobile Number:</strong> 99043XXXXX</p>
+                <p><strong>Address:</strong> Koba institutional area , near to GIFT city,Gandhinagar,Gujarat</p>
+            </div>
+        </section>
+
+        <section class="map">
+            <h2>Find Us Here</h2>
+            <div id="map"></div>
+        </section>
+    </div>
+
+    <script>
+        function initMap() {
+            var location = { lat: 32.7767, lng: -96.7970 }; // Replace with your latitude and longitude
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 15,
+                center: location
+            });
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map
+            });
+        }
+    </script>
+    <script src="https://maps.app.goo.gl/RVvubrHGSL5YnbP46" async defer></script>
+</body>
+</html>

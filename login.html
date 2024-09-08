@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Sign Up</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <div class="form-header">
+                <h1>Welcome</h1>
+                <p>Please log in or sign up to continue.</p>
+            </div>
+            <div class="form-tabs">
+                <button class="tab-button active" onclick="showForm('login')">Login</button>
+                <button class="tab-button" onclick="showForm('signup')">Sign Up</button>
+            </div>
+            <form id="login-form" class="form active">
+                <h2>Login</h2>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+            <form id="signup-form" class="form">
+                <h2>Sign Up</h2>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="Contact Number" placeholder="Contact Number" required>
+                <input type="date" placeholder="Date of Birth" required>
+                <input type="text" placeholder="College" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        function showForm(formId) {
+            document.getElementById('login-form').classList.remove('active');
+            document.getElementById('signup-form').classList.remove('active');
+            document.querySelector('.tab-button.active').classList.remove('active');
+
+            if (formId === 'login') {
+                document.getElementById('login-form').classList.add('active');
+                document.querySelector('.tab-button:nth-of-type(1)').classList.add('active');
+            } else {
+                document.getElementById('signup-form').classList.add('active');
+                document.querySelector('.tab-button:nth-of-type(2)').classList.add('active');
+            }
+        }
+    </script>
+</body>
+</html>

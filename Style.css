@@ -1,0 +1,91 @@
+/* Basic styling for the webpage */
+body {
+    background-color:white;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #0a4ddc;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+}
+
+.nav {
+    float: right;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.hero {
+    background: #0a4ddc;
+    color: black;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.hero p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.btn {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background:white;
+}
+
+.section {
+    padding: 2rem 0;
+    border-bottom: 1px solid white;
+}
+
+.section h2 {
+    margin-top: 0;
+}
+
+.footer {
+    background:#0a4ddc ;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

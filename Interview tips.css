@@ -1,0 +1,96 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: ;
+}
+
+header {
+    background-color: whitesmoke;
+    padding: 1rem 0;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 1rem;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #0a4ddc;
+    padding: 2rem 0;
+}
+
+.hero .container {
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.tips {
+    padding: 2rem 0;
+    background-color: white;
+}
+
+.tips .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.tips h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #0a4ddc;
+}
+
+.tips p {
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+footer {
+    background-color: #0a4ddc;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer p {
+    color: #fff;
+    font-size: 0.9rem;
+}

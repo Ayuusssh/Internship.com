@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #0a4ddc;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #0a4ddcad;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.contact-info {
+    margin: 10px;
+}
+
+.contact-info h2 {
+    border-bottom: 2px solid #0a4ddcad;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-details p {
+    margin: 12px 0;
+}
+
+.map {
+    margin: 10px 0;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
