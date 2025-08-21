@@ -8,10 +8,11 @@ document.addEventListener('DOMContentLoaded', function() {
         { title: 'Data Analyst', company: 'Data Inc', location: 'New York' },
         { title: 'Project Manager', company: 'Business Solutions', location: 'San Francisco' }
     ];
-
+    
     jobs.forEach(job => {
         const jobElement = document.createElement('div');
         jobElement.innerHTML = `<h3>${job.title}</h3><p>${job.company} - ${job.location}</p>`;
         jobListings.appendChild(jobElement);
     });
 });
+
